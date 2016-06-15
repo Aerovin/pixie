@@ -165,7 +165,7 @@ angular.module('image.text')
             if (link[0]) {
                 link.attr('href', '//fonts.googleapis.com/css?family='+name);
             } else {
-                $('head').append('<link rel="stylesheet" id="'+name+'" href="http://fonts.googleapis.com/css?family='+name+'">');
+                $('head').append('<link rel="stylesheet" id="'+name+'" href="//fonts.googleapis.com/css?family='+name+'">');
             }
         }
     };
