@@ -151,7 +151,7 @@ angular.module('image.text')
 
             //load the given fonts
             head.append(
-                '<link rel="stylesheet" id="dynamic-fonts" href="http://fonts.googleapis.com/css?family='+
+                '<link rel="stylesheet" id="dynamic-fonts" href="//fonts.googleapis.com/css?family='+
                 names.join('|').replace(/ /g, '+')+'">'
             );
 
